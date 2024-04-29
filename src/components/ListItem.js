@@ -59,6 +59,7 @@ function ListItem() {
           console.log(data, 'userRegister')
           if (data.status == 'item listed') {
             alert('item listing has been Successful')
+            window.history.back()
           } else {
             alert('Something went wrong')
           }

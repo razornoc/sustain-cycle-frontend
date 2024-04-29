@@ -14,8 +14,6 @@ export default function SignUp() {
       alert('Invalid Admin')
     } else {
       e.preventDefault()
-
-      console.log(fname, lname, email, password)
       fetch('http://localhost:5000/register', {
         method: 'POST',
         crossDomain: true,

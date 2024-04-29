@@ -22,7 +22,7 @@ export default function UserDetails() {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data, "userData");
+        // console.log(data, "userData");
         // if (data.data.userType == "Admin") {
         //   setAdmin(true);
         // }
